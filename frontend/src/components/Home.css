@@ -1,0 +1,47 @@
+/* Container for Home page */
+.home-container {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 40px;
+  background: #f4f6f8;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Heading */
+.home-container h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #0077b6;
+}
+
+/* Paragraph text */
+.home-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Buttons */
+.home-container button {
+  padding: 12px 25px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background: #0077b6;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.home-container button:hover {
+  background: #005f8a;
+}
+
+/* Links override */
+.home-container a {
+  text-decoration: none;
+}

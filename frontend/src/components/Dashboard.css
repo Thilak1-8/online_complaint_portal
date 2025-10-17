@@ -1,0 +1,86 @@
+.dashboard-content {
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+}
+
+.dashboard-left {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.dashboard-center {
+  flex: 3;
+}
+
+.user-complaints {
+  margin-top: 30px;
+}
+
+.complaints-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.complaint-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1 1 300px; /* minimum width 300px */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.complaint-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.status-new {
+  background-color: #007bff;
+}
+
+.status-review {
+  background-color: #ff9800;
+}
+
+.status-resolved {
+  background-color: #28a745;
+}
+
+/* Urgency border indicator */
+.urgency-high {
+  border-left: 6px solid red;
+}
+
+.urgency-medium {
+  border-left: 6px solid orange;
+}
+
+.urgency-low {
+  border-left: 6px solid green;
+}
+
+.error {
+  color: red;
+}

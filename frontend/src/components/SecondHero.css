@@ -1,0 +1,54 @@
+.second-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 50px;
+  background: white;
+}
+
+.second-text {
+  max-width: 50%;
+}
+
+.second-text h2 {
+  font-size: 32px;
+  color: #0077b6;
+  margin-bottom: 15px;
+}
+
+.second-text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.second-text ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.second-text li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #0077b6;
+}
+
+.second-text button {
+  padding: 10px 22px;
+  background: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.second-text button:hover {
+  background: #005f8a;
+}
+
+.second-img img {
+  width: 350px;
+  border-radius: 12px;
+}
